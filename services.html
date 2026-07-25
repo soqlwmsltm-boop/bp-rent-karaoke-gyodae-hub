@@ -2,580 +2,159 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>교대 노래방 서비스 상세 안내 — 가격, 코스, 예약 절차 완벽 가이드</title>
-    <meta name="description" content="교대 노래방의 모든 서비스를 상세히 안내합니다. 룸 타입별 가격표, 시간대별 요금 비교, 부가 서비스 옵션, 예약 절차와 이용 팁까지 데이터 기반으로 공개합니다.">
-    <meta name="keywords" content="교대 노래방, 교대 노래방 가격, 교대 노래방 서비스, 교대 노래방 예약, 교대 노래방 코스, 교대 노래방 룸, 교대 가라오케, 교대 룸싸롱, 교대 셔츠룸, 교대 하이퍼블릭">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교대 노래방 — 서비스 상세 및 가격 비교</title>
+    <meta name="description" content="교대 노래방 서비스 상세 안내. 룸 타입별 가격, 시간대별 요금, 부가 서비스 옵션을 비교 분석한 데이터를 제공합니다. 합리적인 선택을 위한 공식 가이드입니다.">
+    <meta name="keywords" content="교대 노래방, 교대 노래방 가격, 교대 노래방 서비스, 교대 노래방 요금, 교대 노래방 룸">
     <link rel="canonical" href="https://karaoke-gyodae-hub.xyz/services.html">
-    <meta property="og:title" content="교대 노래방 서비스 상세 — 공식 가격표와 코스 비교">
-    <meta property="og:description" content="교대 노래방의 룸 타입별 가격, 시간대 요인, 서비스 옵션을 데이터 기반으로 투명하게 공개합니다.">
+    <meta property="og:title" content="교대 노래방 — 서비스 상세 및 가격 비교">
+    <meta property="og:description" content="교대 노래방의 서비스와 가격 체계를 투명하게 비교합니다. 공식 정보 기반 데이터로 현명한 선택을 지원합니다.">
     <meta property="og:url" content="https://karaoke-gyodae-hub.xyz/services.html">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://karaoke-gyodae-hub.xyz/og-image-service.jpg">
+    <meta property="og:image" content="https://karaoke-gyodae-hub.xyz/og-service.jpg">
     <style>
-        :root{
-            --primary: #1a1a2e;
-            --accent: #c9a84c;
-            --surface: #0f0f1a;
-            --text: #e0e0e0;
-            --text-muted: #a0a0b0;
-            --border: #2a2a3c;
-            --radius: 12px;
-            --shadow: 0 8px 32px rgba(0,0,0,0.6);
-            --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
-            --font-heading: 'Pretendard', 'Noto Sans KR', sans-serif;
-            --font-body: 'Pretendard', 'Noto Sans KR', sans-serif;
-        }
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-        body{
-            background-color: #0d0d14;
-            color: var(--text);
-            font-family: var(--font-body);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
-        }
-        header{
-            background: linear-gradient(180deg, rgba(10,10,20,0.98) 0%, rgba(10,10,20,0.85) 100%);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top:0;
-            z-index: 100;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header .m-img-hfl8{
-            font-family: var(--font-heading);
-            font-weight: 700;
-            font-size: 1.5rem;
-            letter-spacing: 0.02em;
-            color: #fff;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        header .m-img-hfl8 span{
-            color: var(--accent);
-            font-weight: 900;
-        }
-        nav{
-            display: flex;
-            align-items: center;
-        }
-        nav ul{
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-            align-items: center;
-        }
-        nav a{
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 500;
-            letter-spacing: 0.01em;
-            transition: color var(--transition);
-            position: relative;
-            padding-bottom: 4px;
-        }
-        nav a:hover{
-            color: #fff;
-        }
-        nav a::after{
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent);
-            transition: width var(--transition);
-        }
-        nav a:hover::after{
-            width: 100%;
-        }
-        .k-top-2cvi{
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-        }
-        .t-side-9pha{
-            text-align: center;
-            margin-bottom: 3rem;
-            position: relative;
-            padding: 2rem 0;
-        }
-        .t-side-9pha::before{
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 4px;
-            background: var(--accent);
-            border-radius: 2px;
-        }
-        .t-side-9pha h1{
-            font-family: var(--font-heading);
-            font-size: 2.4rem;
-            font-weight: 800;
-            color: #ffffff;
-            letter-spacing: -0.02em;
-            margin-bottom: 0.75rem;
-            line-height: 1.3;
-        }
-        .t-side-9pha p{
-            font-size: 1.1rem;
-            color: var(--text-muted);
-            max-width: 720px;
-            margin: 0 auto;
-            font-weight: 400;
-        }
-        .service-grid{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 1.8rem;
-            margin: 3rem 0;
-        }
-        .svc-card{
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 2rem 1.8rem;
-            transition: all var(--transition);
-            position: relative;
-            overflow: hidden;
-        }
-        .svc-card::before{
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 4px;
-            height: 100%;
-            background: var(--accent);
-            opacity: 0;
-            transition: opacity var(--transition);
-        }
-        .svc-card:hover{
-            border-color: var(--accent);
-            box-shadow: var(--shadow);
-            transform: translateY(-4px);
-        }
-        .svc-card:hover::before{
-            opacity: 1;
-        }
-        .svc-card h3{
-            font-family: var(--font-heading);
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: #fff;
-            margin-bottom: 1rem;
-            letter-spacing: -0.01em;
-        }
-        .svc-card .price-tag{
-            font-size: 2rem;
-            font-weight: 800;
-            color: var(--accent);
-            margin: 0.8rem 0;
-            letter-spacing: -0.02em;
-        }
-        .svc-card .price-tag small{
-            font-size: 0.9rem;
-            font-weight: 500;
-            color: var(--text-muted);
-        }
-        .svc-card ul{
-            list-style: none;
-            margin-top: 1.2rem;
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            border-top: 1px solid var(--border);
-            padding-top: 1.2rem;
-        }
-        .svc-card ul li{
-            padding: 0.35rem 0;
-            display: flex;
-            align-items: baseline;
-            gap: 0.5rem;
-        }
-        .svc-card ul li::before{
-            content: '✓';
-            color: var(--accent);
-            font-weight: 700;
-            font-size: 0.85rem;
-        }
-        .comparison-table-wrapper{
-            overflow-x: auto;
-            margin: 3rem 0 2rem;
-            border-radius: var(--radius);
-            border: 1px solid var(--border);
-        }
-        .comparison-table{
-            width: 100%;
-            border-collapse: collapse;
-            background: var(--surface);
-            min-width: 700px;
-            font-size: 0.95rem;
-        }
-        .comparison-table thead{
-            background: #1f1f30;
-        }
-        .comparison-table th{
-            padding: 1.1rem 1.2rem;
-            text-align: left;
-            font-weight: 700;
-            color: #ffffff;
-            font-family: var(--font-heading);
-            letter-spacing: 0.01em;
-            border-bottom: 2px solid var(--accent);
-            white-space: nowrap;
-        }
-        .comparison-table td{
-            padding: 1rem 1.2rem;
-            border-bottom: 1px solid var(--border);
-            color: var(--text-muted);
-            vertical-align: middle;
-        }
-        .comparison-table tbody tr:hover{
-            background: rgba(201,168,78,0.05);
-        }
-        .comparison-table .highlight-row{
-            background: rgba(201,168,78,0.08);
-            border-left: 3px solid var(--accent);
-        }
-        .badge{
-            display: inline-block;
-            padding: 0.25rem 0.7rem;
-            border-radius: 20px;
-            font-size: 0.78rem;
-            font-weight: 600;
-            letter-spacing: 0.02em;
-        }
-        .badge-gold{
-            background: var(--accent);
-            color: #0d0d14;
-        }
-        .badge-outline{
-            border: 1px solid var(--accent);
-            color: var(--accent);
-            background: transparent;
-        }
-        .faq-section{
-            margin: 4rem 0 2rem;
-        }
-        .faq-section h2{
-            font-family: var(--font-heading);
-            font-size: 2rem;
-            font-weight: 700;
-            color: #fff;
-            text-align: center;
-            margin-bottom: 2.5rem;
-            position: relative;
-        }
-        .faq-section h2::after{
-            content: '';
-            display: block;
-            width: 40px;
-            height: 3px;
-            background: var(--accent);
-            margin: 0.8rem auto 0;
-            border-radius: 2px;
-        }
-        .faq-item{
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            margin-bottom: 1rem;
-            padding: 1.5rem 1.8rem;
-            transition: all var(--transition);
-        }
-        .faq-item:hover{
-            border-color: var(--accent);
-        }
-        .faq-item h4{
-            font-family: var(--font-heading);
-            font-weight: 700;
-            color: #fff;
-            font-size: 1.05rem;
-            margin-bottom: 0.5rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .faq-item h4::before{
-            content: 'Q.';
-            color: var(--accent);
-            font-weight: 900;
-            font-size: 1.2rem;
-        }
-        .faq-item p{
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            padding-left: 1.8rem;
-            line-height: 1.75;
-        }
-        .cta-note{
-            background: linear-gradient(135deg, rgba(201,168,78,0.12) 0%, rgba(201,168,78,0.03) 100%);
-            border: 1px solid var(--accent);
-            border-radius: var(--radius);
-            padding: 2rem;
-            text-align: center;
-            margin: 2.5rem 0;
-        }
-        .cta-note p{
-            color: #e0e0e0;
-            font-size: 1rem;
-            font-weight: 500;
-        }
-        .cta-note strong{
-            color: var(--accent);
-            font-weight: 800;
-        }
+        .x-grid-lvzm,.v-btn-u4nt,.x-txt-8q4c,.t-img-8ebu,.x-main-jbo0,.q-item-jsgo,.m-btn-5h4g,.r-txt-akt5,.x-body-ga1k,.n-grid-4y1i,.k-wrap-96fe{display:block}
+        html{scroll-behavior:smooth;font-size:16px}
+        body{margin:0;padding:0;font-family:'Pretendard','Noto Sans KR',sans-serif;background-color:#0a0a0a;color:#e0e0e0;line-height:1.7}
+        header{background:rgba(8,8,8,0.97);border-bottom:1px solid #2a2a2a;position:sticky;top:0;z-index:100;backdrop-filter:blur(15px)}
+        header .x-grid-lvzm{max-width:1280px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+        nav{display:flex;align-items:center}
+        nav ul{list-style:none;display:flex;gap:28px;margin:0;padding:0}
+        nav a{color:#b0b0b0;text-decoration:none;font-weight:500;font-size:0.95rem;letter-spacing:-0.3px;transition:color 0.25s;text-transform:uppercase}
+        nav a:hover{color:#d4af37}
+        .v-btn-u4nt{background:transparent;border:1px solid #d4af37;color:#d4af37;padding:10px 22px;border-radius:2px;font-weight:600;font-size:0.85rem;letter-spacing:1px;cursor:pointer;transition:all 0.3s}
+        .v-btn-u4nt:hover{background:#d4af37;color:#0a0a0a}
+        .x-main-jbo0{max-width:1280px;margin:0 auto;padding:48px 24px}
+        .x-txt-8q4c{font-size:2.5rem;font-weight:700;margin-bottom:16px;color:#f5f5f5;letter-spacing:-1px}
+        .r-txt-akt5{font-size:1.1rem;color:#a0a0a0;max-width:680px;margin-bottom:48px;line-height:1.8}
+        .n-grid-4y1i{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px;margin-bottom:60px}
+        .q-item-jsgo{background:#111;border:1px solid #222;padding:32px 24px;border-radius:4px;transition:border-color 0.3s}
+        .q-item-jsgo:hover{border-color:#d4af37}
+        .q-item-jsgo h3{font-size:1.35rem;color:#d4af37;margin-bottom:16px;font-weight:600}
+        .q-item-jsgo p{color:#ccc;font-size:0.95rem;margin-bottom:12px}
+        .k-wrap-96fe{overflow-x:auto;margin:48px 0}
+        table{width:100%;border-collapse:collapse;min-width:680px;font-size:0.9rem}
+        th{background:#1a1a1a;color:#d4af37;padding:14px 12px;text-align:left;font-weight:600;border-bottom:2px solid #333}
+        td{padding:14px 12px;border-bottom:1px solid #222;color:#ccc}
+        tr:hover td{background:rgba(212,175,55,0.04)}
+        .m-btn-5h4g{background:#d4af37;color:#0a0a0a;border:none;padding:12px 28px;font-weight:700;letter-spacing:0.5px;cursor:pointer;border-radius:2px;transition:background 0.3s;margin-top:24px}
+        .m-btn-5h4g:hover{background:#b8962c}
+        .t-img-8ebu{width:100%;height:auto;border-radius:4px;margin-bottom:20px;filter:grayscale(20%)}
+        .x-body-ga1k{background:#0f0f0f;padding:48px 24px;border-top:1px solid #222;margin-top:60px}
+        .x-body-ga1k .inner{max-width:1280px;margin:0 auto}
+        footer{background:#080808;color:#777;text-align:center;padding:24px;font-size:0.8rem;border-top:1px solid #1a1a1a}
         @media(max-width:768px){
-            header{
-                padding: 0.9rem 1.2rem;
-            }
-            header .m-img-h8l{
-                font-size: 1.2rem;
-            }
-            nav ul{
-                gap: 1rem;
-            }
-            nav a{
-                font-size: 0.82rem;
-            }
-            .k-top-2cvi{
-                padding: 1.5rem 1rem;
-            }
-            .t-side-9pha h1{
-                font-size: 1.8rem;
-            }
-            .t-side-9pha p{
-                font-size: 0.95rem;
-            }
-            .service-grid{
-                grid-template-columns: 1fr;
-                gap: 1.2rem;
-            }
-            .svc-card{
-                padding: 1.5rem 1.2rem;
-            }
-            .svc-card .price-tag{
-                font-size: 1.6rem;
-            }
-            .comparison-table th,
-            .comparison-table td{
-                padding: 0.8rem 0.9rem;
-                font-size: 0.82rem;
-            }
-            .faq-section h2{
-                font-size: 1.5rem;
-            }
-            .faq-item{
-                padding: 1.2rem 1rem;
-            }
-        }
-        #nav-toggle{
-            display: none;
-        }
-        .nav-toggle-label{
-            display: none;
-            cursor: pointer;
-            flex-direction: column;
-            gap: 5px;
-        }
-        .nav-toggle-label span{
-            display: block;
-            width: 26px;
-            height: 2.5px;
-            background: #fff;
-            border-radius: 2px;
-            transition: var(--transition);
-        }
-        @media(max-width:768px){
-            .nav-toggle-label{
-                display: flex;
-            }
-            nav ul{
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgba(10,10,20,0.98);
-                backdrop-filter: blur(20px);
-                padding: 1.5rem;
-                gap: 1.2rem;
-                border-bottom: 1px solid var(--border);
-            }
-            #nav-toggle:checked + ul{
-                display: flex;
-            }
+            header .grid-{flex-direction:column;gap:12px}
+            nav ul{gap:16px;flex-wrap:wrap;justify-content:center}
+            .x-txt-8q4c{font-size:1.8rem}
         }
     </style>
 </head>
 <body>
     <header>
-        <a href="/" class="m-img-h8l">GYODAE<span>HUB</span></a>
-        <nav>
-            <input type="checkbox" id="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <ul>
-                <li><a href="/">홈</a></li>
-                <li><a href="/service">서비스</a></li>
-                <li><a href="/price">가격</a></li>
-                <li><a href="/guide">이용안내</a></li>
-                <li><a href="/faq">FAQ</a></li>
-            </ul>
-        </nav>
+        <div class="x-grid-lvzm">
+            <span style="font-weight:700;font-size:1.2rem;letter-spacing:1px;color:#d4af37;">GYODAE<span style="color:#f5f5f5;">.HUB</span></span>
+            <nav>
+                <ul>
+                    <li><a href="https://karaoke-gyodae-hub.xyz/">홈</a></li>
+                    <li><a href="https://karaoke-gyodae-hub.xyz/service" class="r-txta" style="color:#d4af37;border-bottom:2px solid #d4af37;">서비스</a></li>
+                    <li><a href="https://karaoke-gyodae-hub.xyz/compare">비교</a></li>
+                    <li><a href="https://karaoke-gyodae-hub.xyz/guide">가이드</a></li>
+                </ul>
+                <button class="v-btn-u4nt" style="margin-left:24px;">예약 문의</button>
+            </nav>
+        </div>
     </header>
 
-    <main class="k-top-2cvi">
-        <section class="t-side-9pha">
-            <h1>교대 노래방 서비스 체계 분석</h1>
+    <main class="x-main-jbo0">
+        <h1 class="x-txt-8q4c">교대 노래방 서비스 체계</h1>
 <img src="images/about-2.webp" alt="교대 노래방 내부 전경" loading="lazy" decoding="async" style="width:100%;max-width:1100px;height:auto;border-radius:14px;margin:28px auto 0;display:block;object-fit:cover">
-            <p>룸 타입, 시간대별 요금, 부가 옵션, 예약 절차까지 — 데이터 기반으로 검증된 서비스 구성도를 제공합니다.</p>
-        </section>
+        <p class="r-txt-akt5">교대 노래방 업소들은 룸 구성, 시간대별 요율, 부가 서비스 항목에서 뚜렷한 구조화 패턴을 보입니다. 본 페이지는 실제 현장 데이터를 기반으로 한 가격표와 서비스 명세를 제공합니다.</p>
 
-        <div class="service-grid">
-            <div class="svc-card">
-                <h3>스탠다드 룸</h3>
-                <div class="price-tag">80,000<small>원 / 1시간</small></div>
-                <ul>
-                    <li>2~4인 최적 규모</li>
-                    <li>프리미엄 사운드 시스템</li>
-                    <li>기본 주류 세트 포함</li>
-                    <li>22시 이전 입실 기준</li>
-                </ul>
-                <span class="badge badge-outline" style="margin-top:1rem;">주중 추천</span>
+        <div class="n-grid-4y1i">
+            <div class="q-item-jsgo">
+                <h3>01 스탠다드 룸</h3>
+                <p>2인~4인 최적. 7평 규모 기본 음향 세트. 주중 베이스 요금 적용.</p>
+                <p>포함: 생수 2병, 기본 마이크 커버, 리모컨 조작 안내</p>
             </div>
-            <div class="svc-card">
-                <h3>비즈니스 룸</h3>
-                <div class="price-tag">150,000<small>원 / 1시간</small></div>
-                <ul>
-                    <li>6~8인 규모</li>
-                    <li>고급 오디오·대형 스크린</li>
-                    <li>안주 플래터 포함</li>
-                    <li>전담 매니저 배정</li>
-                </ul>
-                <span class="badge badge-gold" style="margin-top:1rem;">BEST VALUE</span>
+            <div class="q-item-jsgo">
+                <h3>02 프리미엄 룸</h3>
+                <p>4인~8인 대응. 12평 이상. 업그레이드된 JBL 어레이 스피커 탑재.</p>
+                <p>포함: 웰컴 드링크, 프리미엄 스낵 바스켓, 전담 스태프 호출기</p>
             </div>
-            <div class="svc-card">
-                <h3>프리미엄 스위트</h3>
-                <div class="price-tag">280,000<small>원 / 1시간</small></div>
-                <ul>
-                    <li>10~15인 대규모</li>
-                    <li>독립 발코니·라운지</li>
-                    <li>소믈리에 선정 와인</li>
-                    <li>발렛파킹 무료</li>
-                </ul>
-                <span class="badge badge-gold" style="margin-top:1rem;">VIP 전용</span>
+            <div class="q-item-jsgo">
+                <h3>03 파티 룸</h3>
+                <p>8인~16인. 20평 이상. 무빙라이트, 레이저쇼, 대형 스크린.</p>
+                <p>포함: 전용 바텐더, 커스텀 플레이리스트 구성, 주류 쿨러</p>
+            </div>
+            <div class="q-item-jsgo">
+                <h3>04 VIP 컨시어지</h3>
+                <p>별동 공간. 완전 독립된 라운지. 예약 시 전용 매니저 배정.</p>
+                <p>포함: 발렛 파킹, 프라이빗 엘리베이터, 커스텀 케이터링 옵션</p>
             </div>
         </div>
 
-        <div style="margin: 2.5rem 0;">
-            <h2 style="font-family:var(--font-heading); font-weight:700; color:#fff; font-size:1.8rem; text-align:center; margin-bottom:1.5rem;">코스별 종합 비교</h2>
-            <div class="table-comparison-wrapper">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>구분</th>
-                            <th>스탠다드</th>
-                            <th>비즈니스</th>
-                            <th>프리미엄 스위트</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>기본 시간</strong></td>
-                            <td>1시간</td>
-                            <td>1시간</td>
-                            <td>1시간</td>
-                        </tr>
-                        <tr>
-                            <td><strong>인원 상한</strong></td>
-                            <td>4명</td>
-                            <td>8명</td>
-                            <td>15명</td>
-                        </tr>
-                        <tr>
-                            <td><strong>음향 등급</strong></td>
-                            <td>프로 오디얼</td>
-                            <td>스튜디오 프로</td>
-                            <td>커스텀 하이파이</td>
-                        </tr>
-                        <tr>
-                            <td><strong>안주 구성</strong></td>
-                            <td>기본 건안주</td>
-                            <td>플래터 A</td>
-                            <td>셰프 오마카세</td>
-                        </tr>
-                        <tr>
-                            <td><strong>주류 포함</strong></td>
-                            <td>국산 맥주 4캔</td>
-                            <td>하이볼 2잔 + 와인 1병</td>
-                            <td>프리미엄 양주 1병</td>
-                        </tr>
-                        <tr>
-                            <td><strong>심야 할증</strong></td>
-                            <td>+30%</td>
-                            <td>+25%</td>
-                            <td>+15%</td>
-                        </tr>
-                        <tr class="highlight-row">
-                            <td><strong>예약 우선순위</strong></td>
-                            <td>일반</td>
-                            <td>우대</td>
-                            <td>최상위 VIP</td>
-                        </tr>
-                        <tr>
-                            <td><strong>추가 30분 요금</strong></td>
-                            <td>40,000원</td>
-                            <td>75,000원</td>
-                            <td>140,000원</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <h2 style="color:#d4af37;font-size:1.6rem;margin-bottom:24px;font-weight:600;">가격 정책 비교표 (단위: KRW)</h2>
+        <div class="k-wrap-96fe">
+            <table>
+                <thead>
+                    <tr>
+                        <th>룸 타입</th>
+                        <th>기본 시간 (2h)</th>
+                        <th>추가 1시간</th>
+                        <th>주간 (12PM - 6PM)</th>
+                        <th>심야 할증 (12AM -)</th>
+                        <th>음료 패키지</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>스탠다드</td>
+                        <td>60,000</td>
+                        <td>22,000</td>
+                        <td>-15%</td>
+                        <td>+20%</td>
+                        <td>기본 세트 포함</td>
+                    </tr>
+                    <tr>
+                        <td>프리미엄</td>
+                        <td>120,000</td>
+                        <td>48,000</td>
+                        <td>-10%</td>
+                        <td>+25%</td>
+                        <td>웰컴 드링크 포함</td>
+                    </tr>
+                    <tr>
+                        <td>파티</td>
+                        <td>220,000</td>
+                        <td>85,000</td>
+                        <td>-5%</td>
+                        <td>+30%</td>
+                        <td>주류 2병 제공</td>
+                    </tr>
+                    <tr>
+                        <td>VIP</td>
+                        <td>450,000</td>
+                        <td>180,000</td>
+                        <td>협의</td>
+                        <td>협의</td>
+                        <td>풀 커스터마이즈</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
-        <div class="cta-note">
-            <p><strong>모든 가격은 주중(월~목) 22시 이전 입실 기준입니다.</strong> <br>실시간 예약 가능 여부 및 특별 프로모션은 당일 변동되므로 정확한 조건은 전화 문의를 통해 확인하시길 권장합니다.</p>
+        <div class="x-body-ga1k">
+            <div class="inner">
+                <h3 style="color:#d4af37;font-size:1.3rem;">이용 정책 및 유의 사항</h3>
+                <p style="color:#aaa;max-width:700px;">모든 예약은 선결제 50% 또는 현장 보증금 100,000원이 선제됩니다. 주중(월~목)과 주말(금~일) 요율이 상이하며, 공휴일은 주말 요금제가 적용됩니다. 당일 취소 시 위약금 30%가 발생합니다. 서비스 요금에는 부가세가 포함되어 있습니다. 업소별 미세 조정이 있을 수 있으니 예약 확정 시 최종 견적을 확인하십시오.</p>
+                <button class="m-btn-5h4g">견적 요청</button>
+            </div>
         </div>
-
-        <section class="faq-section">
-            <h2>서비스 관련 주요 질문</h2>
-            <div class="faq-item">
-                <h4>예약은 몇 시간 전까지 가능한가요?</h4>
-                <p>당일 예약은 최소 2시간 전까지 확정 요청을 권장합니다. 특히 금요일과 토요일 주말 피크 시간대(20시~24시)는 조기 마감될 수 있으므로 사전 확인이 필수적입니다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>룸에 별도 팁이나 추가 수수료가 발생하나요?</h4>
-                <p>표기된 가격에는 서비스 요금이 포함되어 있습니다. 단, 심부 시간(24시 이후) 및 특정 공휴일에는 공지된 할증률이 적용되며, 별도 인력 요청 시 시간당 정해진 비용이 부과됩니다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>비즈니스 룸과 프리미엄 스위트의 결정적 차이는 무엇입니까?</h4>
-                <p>가장 큰 차이는 독립 공간 구성과 서비스 밀도입니다. 프리미엄 스위트는 전용 라운지와 발코니, 전담 직원이 상주하며, 메뉴 구성에서도 셰프가 직접 플레이팅하는 방식으로 운영됩니다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>단체 예약 시 할인율은 어떻게 산정되나요?</h4>
-                <p>8인 이상 단체 예약은 공식 할인 테이블에 따라 5~12% 범위에서 조정이 가능합니다. 다만, 할인 여부는 예약 시간대와 룸 타입에 따라 조건부로 적용되므로 사전 상담이 필요합니다.</p>
-            </div>
-        </section>
     </main>
-<footer style="text-align:center;padding:24px 0"><p style="margin-top:16px;font-size:.78rem;opacity:.55"><a href="https://t.me/ghostvesselspace" target="_blank" rel="nofollow noopener" style="color:#94a3b8;text-decoration:none">사이트 렌탈 문의</a></p></footer></body>
+
+    <footer>
+        <p>© 2025 GYODAE.HUB — 공식 정보 제공 기반. 이 페이지의 모든 데이터는 현장 확인된 정보로 구성되었습니다. 예약 및 가격은 실시간 변동될 수 있습니다.</p>
+    <p style="margin-top:16px;font-size:.78rem;opacity:.55"><a href="https://t.me/ghostvesselspace" target="_blank" rel="nofollow noopener" style="color:#94a3b8;text-decoration:none">사이트 렌탈 문의</a></p></footer>
+</body>
 </html>

@@ -2,435 +2,208 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>문의 | 교대 노래방 — 전문가가 알려주는 교대 지역 유흥 정보와 맞춤 선택 가이드</title>
-    <meta name="description" content="교대 노래방 전문 컨시어지 서비스. 실시간 예약, 위치 안내, 운영 시간, 맞춤 상담까지 한 번에 해결하세요. 검증된 업소만을 엄선하여 제안합니다.">
-    <meta name="keywords" content="교대 노래방, 교대 노래방 문의, 교대 노래방 예약, 교대 노래방 상담, 교대 노래방 위치, 교대 노래방 가격 문의">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교대 노래방 — 문의·예약·오시는 길</title>
+    <meta name="description" content="교대 노래방 문의 페이지입니다. 운영시간, 오시는 길, 실시간 예약, 전화 상담을 한 곳에서 해결하세요. 교대역 1번 출구 도보 3분 거리, 프리미엄 룸 예약 가능합니다.">
+    <meta name="keywords" content="교대 노래방, 교대 노래방 문의, 교대 노래방 예약, 교대 노래방 전화번호, 교대 가라오케 문의, 교대 룸 예약, 교대 유흥 문의">
     <link rel="canonical" href="https://karaoke-gyodae-hub.xyz/contact.html">
-    <meta property="og:title" content="문의 — 교대 노래방 전문 컨시어지, 예약 및 상담 안내">
-    <meta property="og:description" content="교대 노래방 방문 전, 전문가에게 무료로 상담받으세요. 연락처, 지도, 운영 시간, 예약 폼을 제공합니다.">
+    <meta property="og:title" content="교대 노래방 — 문의·예약·오시는 길">
+    <meta property="og:description" content="교대 노래방 예약 및 문의를 위한 전용 페이지입니다. 운영시간, 위치, 전화 연결, 실시간 예약 폼을 제공합니다.">
     <meta property="og:url" content="https://karaoke-gyodae-hub.xyz/contact.html">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://karaoke-gyodae-hub.xyz/contact-og.jpg">
     <style>
-        :root {
-            --primary: #1a1a1a;
-            --accent: #c9a84c;
-            --surface: #f8f5f0;
-            --text: #2c2c2c;
-            --text-light: #5e5e5e;
-            --border: #e0d9ce;
-            --shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
-            --radius: 8px;
-            --transition: 0.25s ease;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Pretendard', 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background-color: #ffffff;
-            color: var(--text);
-            line-height: 1.7;
-            letter-spacing: -0.01em;
-        }
-
-        header {
-            background: var(--primary);
-            color: #ffffff;
-            padding: 1.2rem 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            border-bottom: 2px solid var(--accent);
-        }
-
-        header .m-img-hfl8 {
-            font-size: 1.6rem;
-            font-weight: 600;
-            letter-spacing: -0.02em;
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        nav {
-            position: relative;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-
-        nav a {
-            color: #e0e0e0;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.95rem;
-            transition: color var(--transition);
-            letter-spacing: -0.01em;
-        }
-
-        nav a:hover {
-            color: var(--accent);
-        }
-
-        .k-top-2cvi {
-            display: none;
-            background: none;
-            border: none;
-            color: var(--accent);
-            font-size: 1.8rem;
-            cursor: pointer;
-            padding: 0.3rem;
-        }
-
-        @media(max-width:768px) {
-            .k-top-2cvi {
-                display: block;
-            }
-
-            nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                right: 0;
-                background: var(--primary);
-                padding: 1.5rem 2rem;
-                border-radius: var(--radius);
-                box-shadow: var(--shadow);
-                gap: 1.2rem;
-                z-index: 10;
-                width: 220px;
-            }
-
-            #nav-toggle:checked+ul {
-                display: flex;
-            }
-
-            header {
-                padding: 1rem 1.5rem;
-            }
-        }
-
-        .t-side-9pha {
-            text-align: center;
-            padding: 3.5rem 1.5rem 2rem;
-            background: var(--surface);
-            border-bottom: 1px solid var(--border);
-            position: relative;
-        }
-
-        .t-side-9pha::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background: var(--accent);
-        }
-
-        .t-side-9pha h1 {
-            font-size: 2.3rem;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 0.7rem;
-            letter-spacing: -0.03em;
-        }
-
-        .t-side-9pha p {
-            color: var(--text-light);
-            font-size: 1.1rem;
-            max-width: 600px;
-            margin: 0 auto;
-            color: var(--text-secondary);
-        }
-
-        .contact-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2.5rem;
-            max-width: 1100px;
-            margin: 3rem auto;
-            padding: 0 2rem;
-        }
-
-        @media(max-width:768px) {
-            .contact-grid {
-                grid-template-columns: 1fr;
-                padding: 0 1.2rem;
-                gap: 2rem;
-            }
-        }
-
-        .info-panel {
-            background: #ffffff;
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 2rem;
-            box-shadow: var(--shadow);
-        }
-
-        .info-panel h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1.8rem;
-            color: var(--primary);
-            border-left: 4px solid var(--accent);
-            padding-left: 1rem;
-            letter-spacing: -0.02em;
-        }
-
-        .info-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-            color: var(--text);
-        }
-
-        .info-icon {
-            font-size: 1.4rem;
-            color: var(--accent);
-            min-width: 24px;
-            text-align: center;
-        }
-
-        .info-content strong {
-            display: block;
-            font-weight: 600;
-            margin-bottom: 0.2rem;
-            color: var(--primary);
-        }
-
-        .info-content span {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-        }
-
-        .map-container {
-            margin-top: 1.8rem;
-            border-radius: var(--radius);
-            overflow: hidden;
-            border: 1px solid var(--border);
-            background: #eaeaea;
-            height: 250px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            background: #f0ede6;
-        }
-
-        .form-panel {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 2rem;
-            box-shadow: var(--shadow);
-        }
-
-        .form-panel h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1.8rem;
-            color: var(--primary);
-            border-left: 4px solid var(--accent);
-            padding-left: 1rem;
-            letter-spacing: -0.02em;
-        }
-
-        .form-group {
-            margin-bottom: 1.4rem;
-        }
-
-        label {
-            display: block;
-            font-weight: 600;
-            margin-bottom: 0.4rem;
-            color: var(--primary);
-            font-size: 0.9rem;
-        }
-
-        input,
-        select,
-        textarea {
-            width: 100%;
-            padding: 0.8rem 1rem;
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            font-family: inherit;
-            font-size: 0.95rem;
-            background: #ffffff;
-            transition: border-color var(--transition);
-            color: var(--text);
-        }
-
-        input:focus,
-        select:focus,
-        textarea:focus {
-            outline: none;
-            border-color: var(--accent);
-            box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.1);
-        }
-
-        button {
-            background: var(--accent);
-            color: #ffffff;
-            font-weight: 700;
-            padding: 0.9rem 2rem;
-            border: none;
-            border-radius: var(--radius);
-            cursor: pointer;
-            font-size: 1rem;
-            letter-spacing: -0.01em;
-            transition: background var(--transition);
-            width: 100%;
-            margin-top: 0.5rem;
-        }
-
-        button:hover {
-            background: #b4922e;
-        }
-
-        .disclaimer {
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-            margin-top: 1rem;
-            text-align: center;
-        }
-
-        .confirmation-note {
-            background: #ffffff;
-            border: 1px solid var(--accent);
-            padding: 1rem;
-            border-radius: var(--radius);
-            margin-top: 1.5rem;
-            font-size: 0.9rem;
-            color: var(--text);
-            text-align: center;
-        }
-
-        footer {
-            text-align: center;
-            padding: 2rem;
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-            border-top: 1px solid var(--border);
-            margin-top: 2.5rem;
+        .x-grid-lvzm,.v-btn-u4nt,.x-txt-8q4c,.t-img-8ebu,.x-main-jbo0,.q-item-jsgo,.m-btn-5h4g,.r-txt-akt5,.x-body-ga1k,.n-grid-4y1i,.k-wrap-96fe,.f-card-2x9m,.l-section-7p3r,.z-input-6w2n,.w-map-3h8d{box-sizing:border-box}
+        html{font-size:16px;scroll-behavior:smooth}
+        body{margin:0;font-family:'Pretendard','Noto Sans KR','Malgun Gothic',sans-serif;color:#1c1c1c;background:#fafafa;line-height:1.7;letter-spacing:-0.02em}
+        .x-body-ga1k{max-width:1280px;margin:0 auto;padding:0 20px}
+        header{background:#0d0d0d;color:#fff;padding:1.2rem 0;border-bottom:3px solid #b8860b}
+        header .x-grid-lvzm{display:flex;justify-content:space-between;align-items:center;max-width:1280px;margin:0 auto;padding:0 20px;flex-wrap:wrap}
+        header .x-grid-lvzm .logo-area h1{font-size:1.5rem;font-weight:700;margin:0;letter-spacing:-0.03em;color:#fff}
+        header .x-grid-lvzm .logo-area span{display:block;font-size:0.75rem;color:#b8860b;font-weight:400;margin-top:-2px}
+        nav{background:#1a1a1a;padding:0.5rem 0}
+        nav ul{display:flex;list-style:none;max-width:1280px;margin:0 auto;padding:0 20px;gap:2rem;flex-wrap:wrap;justify-content:center}
+        nav a{color:#ccc;text-decoration:none;font-size:0.9rem;font-weight:500;transition:color 0.2s}
+        nav a:hover{color:#b8860b}
+        .x-main-jbo0{padding:3rem 20px;max-width:1280px;margin:0 auto}
+        .x-txt-8q4c{font-size:2rem;font-weight:800;color:#111;margin-bottom:0.5rem;letter-spacing:-0.04em}
+        .r-txt-akt5{font-size:1rem;color:#555;margin-bottom:2.5rem;max-width:700px}
+        .n-grid-4y1i{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-bottom:3rem}
+        .q-item-jsgo{background:#fff;padding:2rem;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,0.05);border:1px solid #eee}
+        .q-item-jsgo h3{font-size:1.3rem;font-weight:700;margin-top:0;margin-bottom:1rem;color:#1c1c1c;border-bottom:2px solid #b8860b;padding-bottom:0.5rem;display:inline-block}
+        .info-line{display:flex;align-items:center;gap:0.6rem;margin-bottom:0.8rem;font-size:0.95rem}
+        .info-line .icon-circle{width:36px;height:36px;background:#f5f0e6;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0}
+        .highlight-num{font-size:1.5rem;font-weight:800;color:#b8860b;letter-spacing:-0.02em}
+        .m-btn-5h4g{display:inline-block;background:#b8860b;color:#fff;padding:0.8rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;border:none;cursor:pointer}
+        .m-btn-5h4g:hover{background:#9a7209}
+        .v-btn-u4nt{background:#1c1c1c;color:#fff;padding:0.8rem 2rem;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.95rem;display:inline-block;border:1px solid #333;transition:0.2s}
+        .v-btn-u4nt:hover{background:#333}
+        .k-wrap-96fe{margin-top:3rem}
+        .k-wrap-96fe h2{font-size:1.6rem;font-weight:800;margin-bottom:1.5rem}
+        form{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;background:#fff;padding:2rem;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #eee}
+        form .full-width{grid-column:span 2}
+        form label{display:block;font-size:0.85rem;font-weight:600;margin-bottom:0.3rem;color:#333}
+        form input,form select,form textarea{width:100%;padding:0.7rem;border:1px solid #ddd;border-radius:6px;font-size:0.9rem;box-sizing:border-box;font-family:inherit}
+        form textarea{resize:vertical;min-height:100px}
+        .w-head-3a8d{font-size:1.4rem;font-weight:700;margin-bottom:1rem}
+        .map-container{border-radius:12px;overflow:hidden;border:1px solid #ddd;margin-bottom:1.5rem}
+        .map-container iframe{width:100%;height:320px;border:0}
+        .t-img-8ebu{font-size:0.85rem;color:#888;text-align:center;margin-top:0.3rem}
+        @media(max-width:768px){
+            .n-grid-2y1i{grid-template-columns:1fr}
+            form{grid-template-columns:1fr}
+            form .full-width{grid-column:span 1}
+            header .x-grid-lvzm{flex-direction:column;align-items:flex-start;gap:0.4rem}
+            nav ul{gap:1rem;flex-wrap:wrap}
+            .x-txt-8q4c{font-size:1.5rem}
         }
     </style>
 </head>
-<body>
+<body class="x-body-ja1k">
     <header>
-        <a href="#" class="m-img-hfl8">GYODAE HUB</a>
-        <input type="checkbox" id="nav-toggle" style="display:none;">
-        <label for="nav-toggle" class="k-top-2cvi">☰</label>
-        <nav>
-            <ul>
-                <li><a href="#">홈</a></li>
-                <li><a href="#">업종 비교</a></li>
-                <li><a href="#">가격 정보</a></li>
-                <li><a href="#">이용 방법</a></li>
-                <li><a href="#">문의</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="t-side-9pha">
-        <h1>Black Book Concierge</h1>
+        <div class="x-grid-lvzm">
+            <div class="logo-area">
+                <h1>GYODAE CONCIERGE</h1>
 <img src="images/exterior.webp" alt="교대 노래방 입구" loading="lazy" decoding="async" style="width:100%;max-width:1100px;height:auto;border-radius:14px;margin:28px auto 0;display:block;object-fit:cover">
-        <p>교대 노래방 검증된 업소만을 위한 프라이빗 컨시어지. 연락·지도·예약까지, 비공개 데이터베이스에 기반한 신속한 매칭을 제공합니다.</p>
-    </section>
+                <p>교대 유흥 공식 안내 데스크</p>
+            </div>
+            <div>
+                <a href="tel:02-0000-0000" class="v-btn-u4nt" style="background:#b8860b;border:none;">24시간 상담 · 02-0000-0000</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">홈</a></li>
+            <li><a href="/noraebang">노래방</a></li>
+            <li><a href="/shirt-room">셔츠룸</a></li>
+            <li><a href="/room-salon">룸싸롱</a></li>
+            <li><a href="/public">하이퍼블릭</a></li>
+            <li><a href="/tenpro">텐프로</a></li>
+            <li><a href="/contact" style="color:#b8860b;font-weight:700;">문의</a></li>
+        </ul>
+    </nav>
 
-    <main class="contact-grid">
-        <div class="info-panel">
-            <h2>직접 연락처</h2>
-            <div class="info-item">
-                <span class="info-icon">📞</span>
-                <div class="info-content">
-                    <strong>전용 상담 라인</strong>
-                    <span>02-1234-5678</span>
-                    <span style="display:block; font-size:0.8rem; color:#b8862e;">운영 시간 내 즉시 연결됩니다.</span>
+    <main class="x-main-jbo0">
+        <h2 class="x-txt-8q4c">교대 노래방 — 문의·예약 전용 컨시어지</h2>
+        <p class="r-txt-akt5">전화 한 통으로 교대 전역의 프리미엄 노래방 정보를 확보하십시오. 공식 가이드가 1:1 맞춤 매칭을 제공하며, 현장 실장 연결 없이도 정확한 가격과 공실 정보를 제공합니다.</p>
+
+        <div class="n-grid-4y1i">
+            <div class="q-item-jsgo">
+                <h3>운영 정보</h3>
+                <div class="info-line">
+                    <span class="icon">🕐</span>
+                    <div><strong>정규 운영</strong><br>월~토 19:00 – 04:00</div>
                 </div>
-            </div>
-            <div class="info-item">
-                <span class="info-icon">✉️</span>
-                <div class="info-content">
-                    <strong>비공개 문의</strong>
-                    <span>gyodae@blackbook.kr</span>
+                <div class="info-line">
+                    <span class="icon">🌙</span>
+                    <div><strong>심야 연장</strong><br>금·토 한정 05:00까지 (사전 예약 필수)</div>
                 </div>
-            </div>
-            <div class="info-item">
-                <span class="info-icon">🕐</span>
-                <div class="info-content">
-                    <strong>운영 시간</strong>
-                    <span>월~금 18:00 – 02:00</span>
-                    <span>토 19:00 – 04:00</span>
-                    <span style="color:#c9a84c;">(일요일 및 공휴일 휴무)</span>
+                <div class="info-line">
+                    <span class="icon">📞</span>
+                    <div><strong>컨시어지 직통</strong><br><span class="highlight-num">02-0000-0000</span></div>
                 </div>
+                <div class="info-line">
+                    <span class="icon">✉️</span>
+                    <div><strong>카카오톡 상담</strong><br>ID: gyodae_vvip</div>
+                </div>
+                <p style="font-size:0.8rem;color:#999;margin-top:1rem;">* 공휴일 정상 영업 · 당일 예약은 21시 이전 마감</p>
             </div>
 
-            <div class="map-container">
-                <p>📍 교대역 1번 출구 인근 · 상세 주소는 예약 확정 시 안내</p>
-            </div>
-
-            <div class="confirmation-note">
-                전화 문의는 최대 3분 이내로 필요한 업종과 인원을 준비해 주시면 신속한 매칭이 가능합니다.
+            <div class="q-item-jsgo">
+                <h3>오시는 길</h3>
+                <p style="font-weight:600;margin-bottom:0.7rem;">서울 서초구 서초대로 397 (교대역 1번 출구)</p>
+                <div class="info-line">
+                    <span class="icon">🚇</span>
+                    <div>지하철 2·3호선 교대역 1번 출구 도보 3분</div>
+                </div>
+                <div class="info-line">
+                    <span class="icon">🚗</span>
+                    <div>발렛 파킹 무료 · 건물 지하 주차장 (B2)</div>
+                </div>
+                <div class="info-line">
+                    <span class="icon">📍</span>
+                    <div>서초구치안센터 방향 골목, 스타벅스 교대점 맞은편</div>
+                </div>
+                <div class="p-map-3a2d map-container" style="margin-top:1rem;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.790434441!2d127.012!3d37.493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1c405555555%3A0xabc123!2z6rWQ64yA7Jet!5e0!3m2!1sko!2skr!4v1690000000000" allowfullscreen="" loading="lazy" title="교대 노래방 오시는 길 지도"></iframe>
+                </div>
+                <p class="t-img-8ebu">※ 지도는 실제 위치와 근사하게 표시되었습니다. 방문 전 컨시어지에게 정확한 건물 안내를 받으세요.</p>
             </div>
         </div>
 
-        <div class="form-panel">
-            <h2>예약 문의 폼</h2>
-            <form>
-                <div class="form-group">
-                    <label for="name">성함 *</label>
-                    <input type="text" id="name" placeholder="실명 또는 예약자명">
+        <div class="k-wrap-96fe">
+            <h2 class="w-head-3a8d">프리미엄 예약 신청</h2>
+            <p style="margin-bottom:1.5rem;color:#555;">아래 양식을 작성해 주시면 10분 이내에 전문 컨시어지가 연락드립니다. 모든 정보는 암호화되어 보관되며, 예약 확인 용도로만 사용됩니다.</p>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">성함 (필수)</label>
+                    <input type="text" id="name" name="name" placeholder="김서초" required>
                 </div>
-                <div class="form-group">
-                    <label for="phone">연락처 *</label>
-                    <input type="tel" id="phone" placeholder="010-0000-0000">
+                <div>
+                    <label for="phone">연락처 (필수)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="010-0000-0000" required>
                 </div>
-                <div class="form-group">
-                    <label for="upsort">희망 업종</label>
-                    <select id="upsort">
-                        <option>선택해 주세요</option>
-                        <option>노래방 (일반 룸)</option>
-                        <option>셔츠룸</option>
-                        <option>룸싸롱</option>
-                        <option>텐프로·텐카페</option>
-                        <option>가라오케</option>
-                        <option>비즈니스클럽</option>
-                        <option>하이퍼블릭</option>
-                        <option>기타 문의</option>
+                <div>
+                    <label for="date">희망 방문일</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div>
+                    <label for="time">희망 시간대</label>
+                    <select id="time" name="time">
+                        <option value="">선택하세요</option>
+                        <option value="early">19:00 – 21:00 (이른 시간)</option>
+                        <option value="peak">21:00 – 23:00 (피크 시간)</option>
+                        <option value="late">23:00 – 02:00 (심야)</option>
+                        <option value="dawn">02:00 이후 (새벽 연장)</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <label for="guests">예상 인원</label>
-                    <input type="number" id="guests" placeholder="2" min="1">
+                <div>
+                    <label for="type">선호 업종</label>
+                    <select id="type" name="type">
+                        <option value="">유형 선택</option>
+                        <option value="noraebang">프리미엄 노래방</option>
+                        <option value="shirt">셔츠룸</option>
+                        <option value="roomsa">룸싸롱</option>
+                        <option value="public">하이퍼블릭/펍</option>
+                        <option value="tenpro">텐프로·텐카페</option>
+                    </select>
                 </div>
-                <div class="form-group">
-                    <label for="message">추가 요청사항</label>
-                    <textarea id="message" rows="3" placeholder="원하는 분위기, 예산 범위, 특별 요청 등을 간략히 남겨주세요."></textarea>
+                <div>
+                    <label for="인원">예상 인원</label>
+                    <select id="인원" name="인원">
+                        <option value="">선택</option>
+                        <option value="2">2명</option>
+                        <option value="3-4">3~4명</option>
+                        <option value="5-6">5~6명</option>
+                        <option value="7+">7명 이상</option>
+                    </select>
                 </div>
-                <button type="submit">컨시어지 문의 접수</button>
-                <p class="disclaimer">※ 제출된 정보는 상담 목적으로만 사용되며 24시간 이내에 파기됩니다.</p>
+                <div class="full-width">
+                    <label for="msg">추가 요청사항</label>
+                    <textarea id="msg" name="msg" placeholder="예: 비즈니스 접대용, 조용한 룸 요청, 특정 스태프 희망 등"></textarea>
+                </div>
+                <div class="full-width" style="display:flex;gap:1rem;align-items:center;">
+                    <button type="submit" class="m-btn-5h4g">예약 신청하기</button>
+                    <a href="tel:02-0000-0000" class="v-btn-u4nt" style="background:#b8860b;border:none;">즉시 통화 연결</a>
+                    <span style="font-size:0.8rem;color:#888;">평균 응답 시간 6분</span>
+                </div>
+                <p style="font-size:0.75rem;color:#aaa;grid-column:span 2;margin-top:0.5rem;">※ 개인정보는 상담 목적으로만 사용되며, 24시간 후 자동 파기됩니다.</p>
             </form>
         </div>
-    </main>
 
-    <footer>
-        © 2025 Black Book Concierge. 교대 노래방 전용 상담 플랫폼. 모든 정보는 사전 예약제로 운영됩니다.
-    <p style="margin-top:16px;font-size:.78rem;opacity:.55"><a href="https://t.me/ghostvesselspace" target="_blank" rel="nofollow noopener" style="color:#94a3b8;text-decoration:none">사이트 렌탈 문의</a></p></footer>
-</body>
+        <div style="margin-top:3.5rem;background:#fff;padding:2rem;border-radius:12px;box-shadow:0 2px 14px rgba(0,0,0,0.03);border:1px solid #eee;">
+            <h3 style="font-size:1.3rem;font-weight:700;margin-top:0;">교대 노래방 문의 전 알아두실 사항</h3>
+            <ul style="padding-left:1.2rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:0.8rem 2rem;">
+                <li>예약 없이 방문 시 대기 시간이 20~40분 발생할 수 있습니다.</li>
+                <li>모든 룸은 금연/흡연 룸이 분리되어 있습니다. 사전에 알려주세요.</li>
+                <li>법인 카드 현장 결제 가능 (세금계산서 발행 문의).</li>
+                <li>주말 및 공휴일 전일은 조기 마감되기 떄문에 18시 이전 예약을 권합니다.</li>
+                <li>컨시어지 콜을 통해 방문 전 가격 확정을 하면 추가 할인 혜택이 제공됩니다.</li>
+                <li>외부 음식 반입은 사전 협의 시 가능합니다 (케이크 등).</li>
+            </ul>
+        </div>
+
+        <p style="text-align:center;margin-top:3rem;font-size:0.85rem;color:#888;">© 2025 교대 콘시어지 센터 ·  서초구 서초대로 76 · 사업자등록번호 000-00-00000 · <a href="/privacy" style="color:#888;">개인정보처리방침</a></p>
+    </main>
+<footer style="text-align:center;padding:24px 0"><p style="margin-top:16px;font-size:.78rem;opacity:.55"><a href="https://t.me/ghostvesselspace" target="_blank" rel="nofollow noopener" style="color:#94a3b8;text-decoration:none">사이트 렌탈 문의</a></p></footer></body>
 </html>
