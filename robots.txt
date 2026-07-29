@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://karaoke-gyodae-hub.xyz/sitemap-index.xml
